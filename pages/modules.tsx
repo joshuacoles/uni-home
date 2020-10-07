@@ -25,6 +25,7 @@ export default function SimpleCard() {
         code="MA20220"
         moodleLink={moodle("55241")}
         panoptoLink={panopto("41b1c229-0835-4116-8c07-ac4300fedbd3")}
+        zoomLink={"https://bath-ac-uk.zoom.us/j/91430831217?pwd=Q1pyR2NTbFNjVFpUVU03U3RGWmcyQT09&uname=Joshua%20Coles"}
       />
 
       <Module

@@ -98,6 +98,14 @@ export function Module({ title, code, moodleLink, panoptoLink, zoomLink }: Modul
           </Button>
         </Link>
 
+
+        {zoomLink &&
+        <Link href={zoomLink}>
+            <Button size="small" color="primary">
+                Zoom
+            </Button>
+        </Link>}
+
         {/*<Button*/}
         {/*  className={clsx(classes.expand)}*/}
         {/*  onClick={handleExpandClick}*/}
